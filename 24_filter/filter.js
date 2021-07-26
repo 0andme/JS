@@ -11,3 +11,5 @@ const todos = [
 
 const A = todos.filter((todo) => todo.done === false);
 console.log(A);
+const B = todos.filter((todo) => todo.done === true);
+console.log(B);
