@@ -10,4 +10,6 @@ const todos = [
 ];
 
 const todo = todos.find((todo) => todo.id === 3);
+const todo2 = todos.find((todo) => todo.done === true);
 console.log(todo);
+console.log(todo2);
