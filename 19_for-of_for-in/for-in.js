@@ -1,2 +1,9 @@
-// 객체에 대한 반복 작업처리할때 주로 사용
-//객체의 정보를 받아오는 방법
+// 객체에 접근할 때 주로 사용된다.
+const doggy = {
+  name: "멍멍이",
+  sound: "멍멍",
+  age: 2
+};
+for (let key in doggy) {
+  console.log(`${key}:${doggy[key]}`);
+}
